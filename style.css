@@ -1,0 +1,112 @@
+/* Geral */
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+input {
+  max-width: 50ch;
+}
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(214, 170, 255);
+}
+
+/* Header*/
+.title-tsf{
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+/* Conteudo - cards*/
+
+a.card-text,
+a.nav-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a.card-text:hover,
+a.nav-link:hover {
+  color: rgb(204, 204, 204);
+}
+
+.card-text {
+  max-width: 100ch;
+  overflow: clip;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-title {
+  font-size: 18pt;
+}
+
+.bi-arrow-up-right-square {
+  color: aliceblue;
+}
+
+/* Artigos */
+
+article a{
+  text-decoration: none;
+  color: indigo;
+}
+
+
+/* form-group*/
+.subs {
+  background-color: rgb(247, 247, 247);
+}
+
+/* footer */
+.nav-text {
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  color: rgb(204, 204, 204);
+}
+
+.bi-triangle-fill {
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+.back-top-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.bottom-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#back-top {
+  background: rgb(104, 104, 104);
+  text-decoration: none;
+  padding: 1rem 1rem;
+}
+
+#bottombar {
+  background: rgb(34, 34, 34);
+  color: white;
+  padding: 1rem 1rem;
+  margin-top: 0;
+}
