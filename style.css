@@ -1,4 +1,12 @@
 /* Geral */
+* {
+  font-family: 'Hind', sans-serif;
+  font-size: 14pt;
+}
+h1, h2{
+  padding: 0.5rem;
+  font-family: 'Unica One', cursive;
+}
 
 body {
   margin: 0;
@@ -7,7 +15,7 @@ body {
 }
 
 input {
-  max-width: 50ch;
+  max-width: 100;
 }
 
 a{
