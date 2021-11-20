@@ -3,10 +3,18 @@
   font-family: 'Hind', sans-serif;
   font-size: 14pt;
 }
-h1, h2{
+h1, h6 {
   padding: 0.5rem;
   font-family: 'Unica One', cursive;
 }
+
+h2, h3, h4, h5 {
+  padding: 0.5rem;
+  font-family: 'Unica One', cursive;
+  text-align: center;
+}
+
+
 
 body {
   margin: 0;
@@ -129,3 +137,23 @@ a.nav-link:hover {
   padding: 1rem 1rem;
   margin-top: 0;
 }
+
+/* EXTRA */
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+  }
+  ol.center li {
+  text-align: left;
+  margin-left: 33%
+  }
+  
+  .center-radio {
+    text-align: left;
+    list-style-position: inside;
+    }
+    input {
+    text-align: left;
+    margin-left: 10%
+    }
