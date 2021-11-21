@@ -96,20 +96,6 @@ article img{
 
 /* footer */
 
-.nav-text {
-  color: aliceblue;
-  padding: 0.5rem 1rem;
-}
-
-.nav-link {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-a.nav-link:hover {
-  color: rgb(204, 204, 204);
-}
-
 .bi-triangle-fill {
   color: aliceblue;
   font-size: 1rem;
@@ -121,13 +107,6 @@ a.nav-link:hover {
   padding: 0.5rem 1rem;
 }
 
-.bottom-link {
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 
 #back-top {
   background: rgb(104, 104, 104);
