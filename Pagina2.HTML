@@ -43,112 +43,225 @@
                       </div>
                     </div>
                   </nav>
-                <h2>Guia de classes e raças</h2>
-                <img src="https://nuckturp.com.br/wp-content/uploads/2021/02/david-kegg-nuckturp-briga-de-bar-rpg-de-mesa-como-comecar-a-jogar-rpg-1024x401.jpg" alt="Classes do RPG">
-            </header>
-                <header>
-                    <h3>Esclarecimento de classes</h3>
-                </header>
-                <div>
-                    <p>A classe é a definição principal de o quê um personagem pode fazer. É mais do que uma profissão: é a vocação de um personagem. Elas costumam ser escolhidas de acordo com a raça optada por cada personagem.</p>
-                    <p>Existem várias raças e cada uma delas possuem suas sinergias com as classes. Na tabela abaixo, podemos ver quais raças são mais recomendadas para cada classe.</p>
+                <!--ESCLARECIMENTO DE CLASSES + IMAGEM-->
+      <section class="container">
+        <h2>Esclarescimento de Classes</h2>
+        <article class="row">
+            <div class="col-8 m-auto">
+                <p>A classe é a definição principal de o quê um personagem pode fazer</p>
+                <p>É mais do que uma profissão: é a vocação de um personagem. 
+                  Elas costumam ser escolhidas de acordo com a raça optada por cada personagem.</p>
+                <p>Existem várias raças e cada uma delas possuem suas sinergias com as classes. 
+                  Na tabela abaixo, podemos ver quais raças são mais recomendadas para cada classe.</p>
+                <figure>
+                    <div class="text-center">
+                        <img class="img-fluid" src="https://nuckturp.com.br/wp-content/uploads/2021/02/david-kegg-nuckturp-briga-de-bar-rpg-de-mesa-como-comecar-a-jogar-rpg-1024x401.jpg" alt="Classes do RPG">
+                    </div>
+                </figure>             
+            </div>
+        </article>
+      <!--Esclarescimento de Classes-->
 
-                    <table border = "1">
-                        <caption><b>Tabela de raças e classe recomendadas</b></caption>
-                        <thead>
-                            <tr>
-                                <th>Raça</th>
-                                <th colspan="3">Classe</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td rowspan="2">Anões</td>
-                                <td>Bárbaro</td>
-                                <td>Druída</td>
-                                <td rowspan="5">Guerreiro</td>             
-                            </tr>
-                            <tr>
-                                <td>Clérigo</td>
-                                <td>Paladino</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2">Elfos</td>
-                                <td>Ladino</td>
-                                <td rowspan="2">Qualquer classe conjuradora</td>
-                            </tr>
-                            <tr>
-                                <td>Ranger</td>
-                            </tr>
-                            <tr>
-                                <td>Meio-orc</td>
-                                <td colspan="2">Bárbaro</td>
-                            </tr>
-                            <tr>
-                                <td>Meio-elfo</td>
-                                <td colspan="2">Feitiçeiro</td>
-                                <td rowspan="4">Bardo</td>
-                            </tr>
-                            <tr>
-                                <td>Gnomos</td>
-                                <td colspan="2">Mago</td>
-                            </tr>
-                            <tr>
-                                <td>Halflings</td>
-                                <td>Ladino</td>
-                                <td>Ranger</td>
-                            </tr>
-                            <tr>
-                                <td>Tieflings</td>
-                                <td>Bruxo</td>
-                                <td>Feitiçeiro</td>
-                            </tr>
-                            <tr>
-                                <td>Draconatos</td>
-                                <td colspan="2">Guerreiro</td>
-                                <td>Paladino</td>
-                            </tr>
-                            <tr>
-                                <td>Tabaxi</td>
-                                <td colspan="2">Ranger</td>
-                                <td>Ladino</td>
-                            </tr>
-                            <tr>
-                                <td>Humano</td>
-                                <td colspan="3">Qualquer classe</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                
-                    <h4>Raças mais escolhidas pelos aventureiros</h4>
-                    <ul>
-                        <li>Humano</li>
-                        <li>Anão</li>
-                        <li>Tiefling</li>
-                        <li>Meio-elfo</li>
-                        <li>Meio-orc</li>
-                    </ul>
-                </div>
+      <!--Tabela e Lista-->
+        <article class="row">
+          <h4>Tabela de raças e classes recomendadas</h4>
+              <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Raça</th>
+                        <th colspan="3">Classe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="2">Anões</td>
+                        <td>Bárbaro</td>
+                        <td>Druída</td>
+                        <td rowspan="5">Guerreiro</td>             
+                    </tr>
+                    <tr>
+                        <td>Clérigo</td>
+                        <td>Paladino</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="2">Elfos</td>
+                        <td>Ladino</td>
+                        <td rowspan="2">Qualquer classe conjuradora</td>
+                    </tr>
+                    <tr>
+                        <td>Ranger</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Meio-orc</td>
+                        <td colspan="2">Bárbaro</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Meio-elfo</td>
+                        <td colspan="2">Feitiçeiro</td>
+                        <td rowspan="4">Bardo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Gnomos</td>
+                        <td colspan="2">Mago</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Halflings</td>
+                        <td>Ladino</td>
+                        <td>Ranger</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tieflings</td>
+                        <td>Bruxo</td>
+                        <td>Feitiçeiro</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Draconatos</td>
+                        <td colspan="2">Guerreiro</td>
+                        <td>Paladino</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tabaxi</td>
+                        <td colspan="2">Ranger</td>
+                        <td>Ladino</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Humano</td>
+                        <td colspan="3">Qualquer classe</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                      <td colspan="4">
+                          <p><i>Atualizado 2021</i></p>
+                      </td>
+                  </tr>
+                </tfoot>
+            </table>
+        </article>
+        <article>
+              <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+                <h4>Raças mais escolhidas pelos aventureiros</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Humano</li>
+                    <li class="list-group-item">Anão</li>
+                    <li class="list-group-item">Tiefling</li>
+                    <li class="list-group-item">Meio-elfo</li>
+                    <li class="list-group-item">Meio-orc</li>
+                </ul>
+              </div>
+        </article>
+      </section>
+      <!--Tabela e Lista-->
 
-                <header>
-                    <h3>Multiclasses</h3>
-                    <img src="https://www.protocoloxp.com.br/wp-content/uploads/2019/09/capa.jpeg" alt="Multiclasses">
-                </header>
-                <div>
-                    <p>As classes podem ser combinadas entre si para criar personagens mais poderosos ou que cubram mais de uma função em uma aventura. É recomendado que as combinações de classe escolhidas acompanhem sempre os mesmos atributos para que seu personagem não fique desbalanceado, mas é apenas uma sugestão. </p>
-                    <p>Abaixo podemos ver quais são as opções de multiclasse que mais funcionam no RPG. Lembre-se que a diversão vem em primeiro lugar, então toda combinação é válida mesmo que a sinergia não seja tão boa.</p>
+      <!-- Parte 3 - Texto + imagem + Lista Ordenada -->
+      <section class="container">
+        <h3>MULTICLASSES</h3>
+        <article class="row">
+            <div class="col-8 m-auto">
+                <figure>
+                    <div class="text-center">
+                        <img class="img-fluid" src="https://www.protocoloxp.com.br/wp-content/uploads/2019/09/capa.jpeg" alt="Multiclasses">
+                    </div>
+                </figure>
+                <p>As classes podem ser combinadas entre si para criar personagens mais poderosos ou que cubram mais de uma função em uma aventura. 
+                  É recomendado que as combinações de classe escolhidas acompanhem sempre os mesmos atributos para que seu personagem não fique desbalanceado, 
+                  mas é apenas uma sugestão.
+                </p>
+                <p>Abaixo podemos ver quais são as opções de multiclasse que mais funcionam no RPG. 
+                  Lembre-se que a diversão vem em primeiro lugar, então toda combinação é válida 
+                  mesmo que a sinergia não seja tão boa.</p>
+            </div>
+            <h3>Opções de Milticlasses</h3>
+            <div class="col-8 m-auto">
+              <ol type="I" class="list-group">
+                <li class="list-group-item">Feitiçeiro + Bruxo</li>
+                <li class="list-group-item">Feitiçeiro + Paladino</li>
+                <li class="list-group-item">Paladino + Bardo</li>
+                <li class="list-group-item">Clérigo e Druida</li>
+                <li class="list-group-item">Clérigo + Mago</li>
+              </ol>          
+            </div>
+        </article>
+    </section>
 
-                    <h4>Opções de Multiclasses</h4>
-                    <ol type="I">
-                        <li>Feitiçeiro + Bruxo</li>
-                        <li>Feitiçeiro + Paladino</li>
-                        <li>Paladino + Bardo</li>
-                        <li>Clérigo e Druida</li>
-                        <li>Clérigo + Mago</li>
-                    </ol>
-                </div>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    </main>
+      <!-- Parte 4 - Card com Enquete -->
+    <section class="row">
+      <h4>Escolha de raças</h4>
+      <article class="card border-dark col-8 m-auto mb-3" style="max-width: 22rem;">
+          <div class="card-header">
+              <h5>ENQUETE</h5>
+          </div>
+          <div class="card-body text-dark">
+              <h6 class="card-title">Quais são suas raças favoritas ?</h6>
+              <form class="card-text" action="index.html" method="post" autocomplete="off">
+                  <div class="center-radio">
+                      <input class="center-radio" id="anoes" type="checkbox" name="Raça">
+                      <label class="center-radio" for="anoes">Anões</label><br>
+                      <input class="center-radio" id="elfos" type="checkbox" name="Raça">
+                      <label class="center-radio" for="elfos">Elfos </label><br>
+                      <input class="center-radio" id="meio-orc" type="checkbox" name="Raça">
+                      <label class="center-radio" for="meio-orc">Meio-orc</label><br>
+                      <input class="center-radio" id="meio-elfo" type="checkbox" name="Raça">
+                      <label class="center-radio" for="meio-elfo">Meio-elfo</label><br>
+                      <input class="center-radio" id="gnomos" type="checkbox" name="Raça">
+                      <label class="center-radio" for="gnomos">Gnomos</label><br>
+                      <input class="center-radio" id="halflings" type="checkbox" name="Raça">
+                      <label class="center-radio" for="halflings">Halflings</label><br>
+                      <input class="center-radio" id="tieflings" type="checkbox" name="Raça">
+                      <label class="center-radio" for="tieflings">Tieflings</label><br>
+                      <input class="center-radio" id="tabaxi" type="checkbox" name="Raça">
+                      <label class="center-radio" for="tabaxi">Tabaxi</label><br>
+                      <input class="center-radio" id="draconatos" type="checkbox" name="Raça">
+                      <label class="center-radio" for="draconatos">Draconatos</label><br>
+                      <input class="center-radio" id="humano" type="checkbox" name="Raça">
+                      <label class="center-radio" for="humano">Humano</label><br>
+                  </div>
+                  <div class="text-center">
+                      <button class="btn btn-dark">Enviar</button>
+                  </div>
+              </form>
+          </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Parte 5 - Rodapé do Site -->
+  <footer class="text-center">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="back-top">
+                <a class="back-top-link" href="#topo" title="clique para voltar ao topo do site"><i
+                        class="bi bi-triangle-fill"></i> Voltar ao topo do site</a>
+            </div>
+        </div>
+        <div class="row" id="bottombar">
+            <div class="col-4">
+                <a class="bottom-link" href="#">Quem Somos</a>
+            </div>
+            <div class="col-4">
+                <a class="bottom-link" href="#">Política de Privacidade</a>
+            </div>
+            <div class="col-4">
+                <p class="bottom-text">
+                    Torre sem Fim - Todos os Direitos Reservados
+                </p>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
+</html>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
