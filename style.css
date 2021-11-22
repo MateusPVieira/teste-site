@@ -22,7 +22,7 @@ body {
   scroll-behavior: smooth;
 }
 
-input {
+input.subs {
   max-width: 100ch;
 }
 
