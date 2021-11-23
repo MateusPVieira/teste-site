@@ -83,10 +83,11 @@ article a{
   color: indigo;
 }
 
-article img{
-  max-width: 20rem;
-}
 
+
+#subtitle {
+  font-size: 20pt;
+}
 /* form-group*/
 
 .subs {
