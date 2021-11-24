@@ -14,6 +14,10 @@ h2, h3, h4, h5 {
   text-align: center;
 }
 
+input {
+  text-align: left;
+  margin-left: 10%
+  }
 
 
 body {
@@ -22,9 +26,6 @@ body {
   scroll-behavior: smooth;
 }
 
-input.subs {
-  max-width: 100ch;
-}
 
 a{
   text-decoration: none;
@@ -95,7 +96,12 @@ article a{
 }
 
 
-/* footer */
+/* footer/bar */
+
+input.subs {
+  max-width: 100ch;
+}
+
 
 .bi-triangle-fill {
   color: aliceblue;
@@ -133,11 +139,7 @@ article a{
   margin-left: 33%
   }
   
-  .center-radio {
-    text-align: left;
-    list-style-position: inside;
-    }
-    input {
-    text-align: left;
-    margin-left: 10%
+.center-radio {
+  text-align: left;
+  list-style-position: inside;
     }
